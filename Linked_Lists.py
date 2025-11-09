@@ -95,7 +95,22 @@ class LinkedList:
                     return
             new_node.next=current.next
             current.next=new_node
-        
+    
+    def insert_inorder(self,data):
+        if not self.head:
+            return
+        current = self.head
+        new_node = Node(data)
+        if current.data >= data:
+            new_node.next=current
+            self.head=new_node
+        else:
+            
+            while current.data<data and current.next:
+                current = current.next
+            new_node.next=current.next
+            current.next=new_node
+    
     def display(self):
         if not self.head:
             return
@@ -125,7 +140,9 @@ if __name__=='__main__':
     # for i in range(1,10):
     #     ll.prepend(-1*i)
     #ll.swap(-9,9)
-    ll.insert(1,99)
+    #ll.insert(1,99)
+    #ll.reverse()
+    ll.insert_inorder(5)
     ll.display()
     
     # for i in range(0,10):
