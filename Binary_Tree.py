@@ -181,7 +181,7 @@ if __name__=='__main__':
     
     bt=BinaryTree()
   
-    practice = [1,2,3,4,5]
+    practice = [1,2,3,4,5,6,7]
     
     #bt.build_binary_search_tree(practice)
     
