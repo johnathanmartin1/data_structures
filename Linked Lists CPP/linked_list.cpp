@@ -1,40 +1,26 @@
 #include "linked_list.hpp"
 
-class Node {
+Node::Node(int value, Node* next_ptr) {
+	this -> data = value;
+	this -> next = next_ptr;
+}
 
-private:
-	int value{};
-	std::unique_ptr<Node> next = std::make_unique<Node>(nullptr);
+Node::~Node(){}
 
-public:
-	friend class Linked_List;
+int Node::get_value() {
+	return data;
+}
+
+void Node::set_next(Node& new_node) {
+	Node* node_ptr =  &new_node;
+	this->next = node_ptr;
+}
+
+Node* Node::get_next() {
+	return next;
 	
-	/*----------constructor and destructor----------*/
-	Node(int value, std::unique_ptr<Node> next) {
-		
-		this->value = value;
-		this->next = std::make_unique<Node>(next);
-	}
-
-	~Node() {
-	}
-
-};
+}
 
 
 
-class Linked_List {
 
-public:
-
-	Node base(const int val)
-	{
-		return Node(val, nullptr);
-	}
-
-	void const add_node(const int val)
-	{
-		Node new_node = Node(val, nullptr);
-		this->next = std::make_unique<Node>(new_node);
-	}
-};

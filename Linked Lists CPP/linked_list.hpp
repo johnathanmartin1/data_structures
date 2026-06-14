@@ -5,30 +5,45 @@
 #include <string>
 #include <memory>
 
-class Node
-{
+
+/*_________________________Node_Class_______________________*/
+class Node {
+
 private:
-	int value;
-	std::unique_ptr<Node> next;
+	int data;
+	Node* next;
 
 public:
-	Node(int value, std::unique_ptr<Node> next);
+	Node(int value, Node* next_ptr = nullptr);
 
 	~Node();
 
 	int get_value();
+
+	void set_next(Node& new_node);
+
+	Node* get_next();
+
+	
+
+	
 
 };
 	
 
 
 
-class Linked_List
-{
-public:
 
-	Node base(const int val);
 
-	void add(const int val);
-};
-#endif
+
+
+
+
+
+
+
+
+
+
+
+#endif 

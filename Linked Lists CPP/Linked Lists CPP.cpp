@@ -2,10 +2,23 @@
 //
 
 #include <iostream>
+#include "linked_list.hpp"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Node node1 = Node(3);
+    std::cout << node1.get_value() << std::endl;
+    Node node2 = Node(5);
+    Node node3 = Node(10);
+    //std::cout << node2.get_value() << std::endl;
+    node1.set_next(node2);
+    node2.set_next(node3);
+    std::cout << node1.get_next()->get_value() << std::endl;
+    std::cout << node1.get_next()->get_next()->get_value() << std::endl;
+    
+    
+    std::cout << "hi" << std::endl;
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
