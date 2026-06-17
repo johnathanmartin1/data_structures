@@ -10,23 +10,24 @@
 class Node {
 
 private:
+	/*node_variables*/
+
 	int data;
 	Node* next;
 
 public:
+	/*constructor*/
 	Node(int value, Node* next_ptr = nullptr);
 
+	/*destructor*/
 	~Node();
 
+	/*class methods*/
 	int get_value();
 
-	void set_next(Node& new_node);
+	void set_next(Node* new_node);
 
 	Node* get_next();
-
-	
-
-	
 
 };
 	
