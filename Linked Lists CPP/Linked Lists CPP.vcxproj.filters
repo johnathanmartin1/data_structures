@@ -26,5 +26,8 @@
     <ClInclude Include="linked_list.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="link_list_node.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,5 +1,5 @@
 #ifndef linked_lists
-#define linked_lits
+#define linked_lists
 
 #include <iostream>
 #include <string>

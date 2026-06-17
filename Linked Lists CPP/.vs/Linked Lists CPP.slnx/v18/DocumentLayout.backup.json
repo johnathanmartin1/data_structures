@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{6EEE26BF-1D19-4C77-85DC-D174AAE0374D}|Linked Lists CPP.vcxproj|solutionrelative:Linked Lists CPP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EEE26BF-1D19-4C77-85DC-D174AAE0374D}|Linked Lists CPP.vcxproj|C:\\Users\\johna\\Documents\\Projects\\Data_Structures\\Linked Lists CPP\\linked_list.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6EEE26BF-1D19-4C77-85DC-D174AAE0374D}|Linked Lists CPP.vcxproj|solutionrelative:linked_list.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6EEE26BF-1D19-4C77-85DC-D174AAE0374D}|Linked Lists CPP.vcxproj|C:\\Users\\johna\\Documents\\Projects\\Data_Structures\\Linked Lists CPP\\link_list_node.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6EEE26BF-1D19-4C77-85DC-D174AAE0374D}|Linked Lists CPP.vcxproj|solutionrelative:link_list_node.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EEE26BF-1D19-4C77-85DC-D174AAE0374D}|Linked Lists CPP.vcxproj|C:\\Users\\johna\\Documents\\Projects\\Data_Structures\\Linked Lists CPP\\linked_list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6EEE26BF-1D19-4C77-85DC-D174AAE0374D}|Linked Lists CPP.vcxproj|solutionrelative:linked_list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EEE26BF-1D19-4C77-85DC-D174AAE0374D}|Linked Lists CPP.vcxproj|C:\\Users\\johna\\Documents\\Projects\\Data_Structures\\Linked Lists CPP\\linked_list.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6EEE26BF-1D19-4C77-85DC-D174AAE0374D}|Linked Lists CPP.vcxproj|solutionrelative:linked_list.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,20 +26,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "linked_list.hpp",
               "DocumentMoniker": "C:\\Users\\johna\\Documents\\Projects\\Data_Structures\\Linked Lists CPP\\linked_list.hpp",
               "RelativeDocumentMoniker": "linked_list.hpp",
               "ToolTip": "C:\\Users\\johna\\Documents\\Projects\\Data_Structures\\Linked Lists CPP\\linked_list.hpp",
               "RelativeToolTip": "linked_list.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-14T00:47:24.293Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "link_list_node.hpp",
+              "DocumentMoniker": "C:\\Users\\johna\\Documents\\Projects\\Data_Structures\\Linked Lists CPP\\link_list_node.hpp",
+              "RelativeDocumentMoniker": "link_list_node.hpp",
+              "ToolTip": "C:\\Users\\johna\\Documents\\Projects\\Data_Structures\\Linked Lists CPP\\link_list_node.hpp",
+              "RelativeToolTip": "link_list_node.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-17T21:06:15.624Z",
               "EditorCaption": ""
             },
             {
@@ -46,7 +63,7 @@
               "RelativeDocumentMoniker": "linked_list.cpp",
               "ToolTip": "C:\\Users\\johna\\Documents\\Projects\\Data_Structures\\Linked Lists CPP\\linked_list.cpp",
               "RelativeToolTip": "linked_list.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-14T00:43:35.714Z",
               "EditorCaption": ""
@@ -59,7 +76,7 @@
               "RelativeDocumentMoniker": "Linked Lists CPP.cpp",
               "ToolTip": "C:\\Users\\johna\\Documents\\Projects\\Data_Structures\\Linked Lists CPP\\Linked Lists CPP.cpp",
               "RelativeToolTip": "Linked Lists CPP.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-14T00:31:45.298Z",
               "EditorCaption": ""

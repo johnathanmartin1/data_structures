@@ -2,24 +2,31 @@
 //
 
 #include <iostream>
-#include "linked_list.hpp"
-
+//#include "linked_list.hpp"
+#include "link_list_node.hpp"
+#include <string>
 int main()
 {
-    Node* node1 = new Node(3);
-    std::cout << node1->get_value() << std::endl;
-    Node* node2 = new Node(5);
-    Node* node3 = new Node(10);
-    std::cout << node2->get_value() << std::endl;
+    Node<std::string>* node1 = new Node<std::string>("hi");
+  
+    Node<std::string>* node2 = new Node<std::string>("there");
+    
+    Node<std::string>* node3 = new Node<std::string>("obi wan");
+    
     node1->set_next(node2);
+    
     node2->set_next(node3);
+    
+    std::cout << node1->get_value() << std::endl;
+    
     std::cout << node1->get_next()->get_value() << std::endl;
+   
     std::cout << node1->get_next()->get_next()->get_value() << std::endl;
     
     delete node1;
     
-    
     std::cout << "hi" << std::endl;
+    
     return 0;
 }
 
